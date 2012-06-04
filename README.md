@@ -22,10 +22,9 @@ Voor de techneuten:
 * Fork deze repository. Github heeft daarvoor een heel duidelijke
   [handleiding](https://help.github.com/articles/fork-a-repo)
 * Maak je verbeteringen. [Lees wel even de richtlijnen](https://github.com/piratenpartij/piratenpartij.nl/wiki/Contributors-guidelines). Scheelt ruis en dubbel werk.
-* Stuur ons een pullrequest. Een ticket wordt dan automatisch erbij
+* Stuur ons een pullrequest. Daarbij wordt dan automatisch een ticket
   aangemaakt. Blijf dat volgen, degene(n) die over de uiteindelijke code
-  gaan of gaat, reageert daar. Misschien moet iets verbeterd, zijn
-  heb je een nieuwe bug gemaakt? Iets over het hoofd gezien?
+  gaan, reageren daarop. Misschien moet eerst iets verbeterd worden? Of heb je een nieuwe bug gemaakt?
 
 Of [help met de vertalingen, teksten, bloggen, promotie en nog veel
 meer](https://www.piratenpartij.nl/meedoen).
