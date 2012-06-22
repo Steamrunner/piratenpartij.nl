@@ -4,8 +4,8 @@
   <div>
 	<ul class="ppnl-info-links">
 <li><a href="/contact">Contact</a></li>
-<li><a href="/lalala-cookie?">Blabla Datadingen cookiestuff</a></li>
-<li><a href="/creativecommon">CC-BY-SA 3.0</a></li>
+<li><a href="/privacy-verklaring">Privacyverklaring</a></li>
+<li><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.nl">CC-BY-SA 3.0</a></li>
 	</ul>
   </div>
   <div style="clear: both;">&nbsp;</div>
