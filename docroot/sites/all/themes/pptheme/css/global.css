@@ -113,10 +113,20 @@ ul.topmenu-socialmedia li.youtube a:hover {
     background-repeat: repeat-x, no-repeat;
 }
 
+#zone-user a {
+	color: #522E91;
+	position: relative;
+	text-decoration: none;
+	vertical-align: baseline;
+}
+ #zone-user a:hover {
+	color: #FF8800;
+}
+
 #pptheme-logo {
 	display: block;
 	width: 593px;
-	height: 73px;
+	height: 77px; /* 77px is slightly larger then the logo realy is, but this is required becuase in narrow layout the mnu starts jumping up 4 pixels because the "Word Piraat" and "Help ons met een Donatie" are hidden.*/
     text-indent: -999em;
 	background-image: url("../images/pplogo.png");
 	background-position: 0 top;
@@ -128,12 +138,12 @@ ul.topmenu-socialmedia li.youtube a:hover {
 	height: 0px;
 }
 #zone-menu {
-	top: -26px;
-	position: relative;
+	/*top: -26px;
+	position: relative;*/
 }
 
 #region-menu {
-	padding-top: 84px;
+	padding-top: 58px;
 	height: 1px;
 }
 
@@ -152,8 +162,15 @@ ul.topmenu-socialmedia li.youtube a:hover {
 	vertical-align: baseline;
 }
 
+
 #zone-content a:hover {
 	color: #FF8800;
+}
+
+#zone-content .view-frontpage-blog .views-field-title .field-content a {
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: -1.4px;
 }
 
 #region-content .content h2.node-title {
@@ -162,6 +179,40 @@ ul.topmenu-socialmedia li.youtube a:hover {
 
 #region-content .content footer.submitted  {
 	margin-bottom: 15px;
+}
+
+.node-links ul li a, .comment-links ul li a {
+	background: none repeat scroll 0 0 transparent;
+	border-radius: 0;
+	border-style: solid;
+	border-width: 0 1px 1px;
+	border-color: #522E91;
+}
+
+.node-links ul li a:hover, .comment-links ul li a:hover {
+	border-color: #FF8800;
+}
+
+.pager li {
+	border: none;
+}
+
+.pager li a {
+	color: white;
+	text-decoration: none;
+	vertical-align: baseline;
+}
+
+.pager li a:hover {
+	border-color: #FF8800;
+}
+
+li.pager-next, li.pager-next a {
+	width: 70px !important;
+}
+
+li.pager-previous {
+	border-right: 1px solid #BBBBBB;
 }
 
 #zone-breadcrumb-wrapper {
@@ -238,8 +289,8 @@ ul.topmenu-socialmedia li.youtube a:hover {
 
 	#twitter-db-list li {
 		padding-top: 25px;
-		padding-left: 5px;
 		background-image: url("../images/jolly.png");
+		background-position: center top;
 		background-repeat: no-repeat;
 	}
 
@@ -250,7 +301,7 @@ ul.topmenu-socialmedia li.youtube a:hover {
 
 	/* agregator layout */
 	.block-aggregator .content .item-list li {
-		margin-left: 5px;
+		margin: 3px 5px 2px 5px;
 	}
 
 	/* user menu layout */
